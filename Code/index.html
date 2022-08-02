@@ -4,8 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+
     <title>Android</title>
-    
+    <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
@@ -13,9 +17,9 @@
     <!--Cabeçalho-->
     <header>
         <h1>Curiosidades de tecnologia</h1>
-        <p>Tudo aquilo que você sempre quis saber sobre o mundo tech, em um único lugar.</p>
+        <p id="frase_header">Tudo aquilo que você sempre quis saber sobre o mundo tech, em um único lugar.</p>
         <!--Menu-->
-        <div>
+        <div id="menu">
             <li><a href="#">Home</a></li>
             <li><a href="#">Notícias</a></li>
             <li><a href="#">Curiosidades</a></li>
@@ -34,7 +38,7 @@
         <p>A primeira tentativa de criar um mascote surgiu em 2007 e veio de um desenvolvedor chamado <a href="#">Dan Morril</a>##. Ele conta que abriu o <a href="#">linkscape</a>## (software livre para vetorização de imagens) e criou sua própria versão de robô. O objetivo era apenas personificar o sistema apenas para a sua equipe, não existia nenhuma solicitação da empresa para a criação de um mascote.</p>
 
         <picture>
-            <source media="(max-width: 750px)" srcset="imagens/dan-droids-pq.png">
+            <source media="(max-width: 950px)" srcset="imagens/dan-droids-pq.png">
             <img src="imagens/dan-droids.png" alt="Imagem flexível">
         </picture>
 
@@ -43,7 +47,7 @@
         <p>A ideia de ter um mascote foi amadurecendo e a missão foi passada para uma profissional da área. A ilustradora Russa <a href="#">Irina Blok</a>##, também funcionária do Google, ficou com a missão de representar o pequeno robô de uma maneira mais agradável.</p>
 
         <picture>
-            <source media="(max-width: 750px)" srcset="imagens/irina-blok-pq.jpg">
+            <source media="(max-width: 950px)" srcset="imagens/irina-blok-pq.jpg">
             <img src="imagens/irina-blok.jpg" alt="Imagem flexível">
         </picture>
 
@@ -53,7 +57,10 @@
 
         <p>A principal inspiraão para os traços do novo Bugdroid veio daqueles bonequinhos que ilustram portas de banheiro para indicar o gênere de cada porta. Conta a lenda que a artista estava criando em sua mesa no escrtório do Google e olhou para o lado dos banheiros e a identificação foi imediata: simples, limpo e objetivo.</p>
 
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/l2UDgpLz20M?start=2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div id="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/l2UDgpLz20M?start=2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        
 
         <div>
             <h4>Quer aprender mais?</h4>
