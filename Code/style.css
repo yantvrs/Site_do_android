@@ -45,9 +45,15 @@ h3{
 
 h4{
     background-color: #040c1045;
-
     padding: 12px;
 }
+
+
+li:hover {
+ 
+   text-shadow: 1px 1px rgba(255, 255, 255, 0.281);
+}
+
 
 li{
     color: white;
@@ -61,8 +67,15 @@ li{
     display: inline-block;
 }
 
+a:hover{
+    color: #1e4365;
+}
+
+
 a{
-    text-decoration: none;
+    text-decoration: solid;
+    font-weight: bold;
+    color: #316aa0;
 }
 
 .menu{
@@ -107,7 +120,12 @@ p{
     padding: 10px;
 }
 
+.footer_text{
+    color: rgba(176, 175, 175, 0.808);
+}
+
 footer{
+    
     color: white;
     text-decoration: none;
 }
