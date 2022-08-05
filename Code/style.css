@@ -123,7 +123,9 @@ p{
 .footer_text{
     color: rgba(176, 175, 175, 0.808);
 }
-
+.menu:hover{
+    color: rgb(198, 194, 194);
+}
 footer{
     
     color: white;
