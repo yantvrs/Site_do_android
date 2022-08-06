@@ -52,6 +52,8 @@ h3{
 h4{
     background-color: #040c1045;
     padding: 12px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
 }
 
 .container_menu{
@@ -125,7 +127,16 @@ div#video{
     background-color: #13293D;
     align-items: center;
     padding: 30px;
+    margin: 0px -10px;
+    margin-bottom: 60px;
 }
+
+div#video:hover{
+    margin: 0px -30px;
+    transition-duration: 2s;
+    border-radius: 40px;
+}
+
 
 iframe{
     display:block;
@@ -137,6 +148,7 @@ div#container{
     background-color: #169cda;
     border-radius: 20px;
     margin: 0px;
+    box-shadow: 0 0 1em rgb(0, 0, 0);
 }
 
 p{
@@ -159,4 +171,9 @@ p{
 footer{    
     color: rgb(0, 0, 0);
     text-decoration: none;
+}
+
+ul{
+    list-style-type: '\2714';
+    list-style-position: inside;
 }
