@@ -141,6 +141,8 @@ div#video:hover{
 iframe{
     display:block;
     margin: auto;
+    max-width: 800px;
+    min-width: 320px;
 }
 
 div#container{
